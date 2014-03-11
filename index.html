@@ -10,22 +10,22 @@ layout: default
   <div class="col">
     <h4><a href="#html">HTML</a></h4>
     <ul>
-      <li><a href="#html-syntax">Syntax</a></li>
+      <li><a href="#html-syntax">语法</a></li>
       <li><a href="#html-doctype">HTML5 doctype</a></li>
-      <li><a href="#html-encoding">Character encoding</a></li>
-      <li><a href="#html-style-script">CSS and JavaScript includes</a></li>
-      <li><a href="#html-practicality">Practicality over purity</a></li>
-      <li><a href="#html-attribute-order">Attribute order</a></li>
-      <li><a href="#html-boolean-attributes">Boolean attributes</a></li>
-      <li><a href="#html-reducing-markup">Reducing markup</a></li>
-      <li><a href="#html-javascript">JavaScript generated markup</a></li>
+      <li><a href="#html-encoding">字符编码</a></li>
+      <li><a href="#html-style-script">CSS 和 JavaScript 的引入</a></li>
+      <li><a href="#html-practicality">简洁实用</a></li>
+      <li><a href="#html-attribute-order">属性书写顺序</a></li>
+      <li><a href="#html-boolean-attributes">布尔值属性</a></li>
+      <li><a href="#html-reducing-markup">减少标签</a></li>
+      <li><a href="#html-javascript">JavaScript 生成标签</a></li>
     </ul>
   </div>
   <div class="col">
     <h4><a href="#css">CSS</a></h4>
     <ul>
-      <li><a href="#css-syntax">CSS syntax</a></li>
-      <li><a href="#css-declaration-order">Declaration order</a></li>
+      <li><a href="#css-syntax">CSS 语法</a></li>
+      <li><a href="#css-declaration-order">声明的顺序</a></li>
       <li><a href="#css-media-queries">Media query placement</a></li>
       <li><a href="#css-prefixed-properties">Prefixed properties</a></li>
       <li><a href="#css-single-declarations">Rules with single declarations</a></li>
@@ -43,7 +43,7 @@ layout: default
 <div class="section" id="golden-rule">
   <div class="col">
     <h2>黄金法则</h2>
-    <p>随时都遵守代码规范，不管是这里的，还是你自己的。无论大小，如果有误还请不吝指出。为 Code Guide 添加或贡献，请在 GitHub <a href="https://github.com/mdo/code-guide/issues/new">新开问题</a>。</p>
+    <p>随时都遵守代码规范，不管是这里的，还是你自己的。无论大小，如果有误还请不吝指出。为 Code Guide 添加或贡献，<a href="https://github.com/mdo/code-guide/issues/new">请在 GitHub 新开讨论</a>。</p>
   </div>
   <div class="col">
     <blockquote>
@@ -60,7 +60,7 @@ layout: default
 
 <div class="section" id="html-syntax">
   <div class="col">
-    <h3>Syntax</h3>
+    <h3>语法</h3>
     <ul>
       <li>使用两个空格的 Tab 键 - 保证代码在任何环境下呈现相同效果</li>
       <li>嵌套标签应缩进一次（两空格）</li>
@@ -85,7 +85,7 @@ layout: default
 
 <div class="section" id="html-encoding">
   <div class="col">
-    <h3>Character encoding</h3>
+    <h3>字符编码</h3>
     <p>声明一个明确的字符编码可以迅速与简单的确宝正确渲染你的内容。</p>
   </div>
   <div class="col">
@@ -95,13 +95,13 @@ layout: default
 
 <div class="section" id="html-style-script">
   <div class="col">
-    <h3>CSS and JavaScript includes</h3>
-    <p>HTML5 规定无需为 CSS 和 JavaScript 的 <code>type</code> 属性指定 <code>text/css</code> 和 <code>text/javascript</code>的 MIME 类型。</p>
+    <h3>CSS 和 JavaScript 的引入</h3>
+    <p>HTML5 规定无须为 CSS 和 JavaScript 的 <code>type</code> 属性指定 <code>text/css</code> 和 <code>text/javascript</code>的 MIME 类型。</p>
     <h4>HTML5 规范链接</h4>
     <ul>
-      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-link-element">Using link</a></li>
-      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-style-element">Using style</a></li>
-      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/scripting-1.html#the-script-element">Using script</a></li>
+      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-link-element">使用 link 标签</a></li>
+      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-style-element">使用 style 标签</a></li>
+      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/scripting-1.html#the-script-element">使用 script 标签</a></li>
     </ul>
   </div>
   <div class="col">
@@ -137,17 +137,17 @@ layout: default
 
 <div class="section" id="html-boolean-attributes">
   <div class="col">
-    <h3>Boolean attributes</h3>
-    <p>A boolean attribute is one that needs no declared value. XHTML required you to declare a value, but HTML5 has no such requirement.</p>
-    <p>For further reading, consult the <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#boolean-attributes">WhatWG section on boolean attributes</a>:</p>
+    <h3>布尔值属性</h3>
+    <p>布尔值属性无须声明值，XHTML要求声明一个值，但 HTML5 无此规定。</p>
+    <p>详细阅读请移步 <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#boolean-attributes">WhatWG</a> 以下是关于布尔值属性的部分节选:</p>
     <blockquote>
-      <p>The presence of a boolean attribute on an element represents the true value, and the absence of the attribute represents the false value.</p>
+      <p>当一个元素中出现布尔值属性时则值为 true，如果缺失该属性则为 false。</p>
     </blockquote>
-    <p>If you <em>must</em> include the attribute's value, and <strong>you don't need to</strong>, follow this WhatWG guideline:</p>
+    <p>如果你<em>一定要</em> 包含属性的值, <strong>你不用</strong>遵守以下 WhatWG 的规范：</p>
     <blockquote>
-      <p>If the attribute is present, its value must either be the empty string or [...] the attribute's canonical name, with no leading or trailing whitespace.</p>
+      <p>如果属性存在，它的值必须为空字符串或[...]该属性名，前后不能有空格。</p>
     </blockquote>
-    <p><strong>In short, don't add a value.</strong></p>
+    <p><strong>总之，不要设置值。</strong></p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/boolean-attributes.html %}{% endhighlight %}
@@ -179,21 +179,21 @@ layout: default
 
 <div class="section" id="css-syntax">
   <div class="col">
-    <h3>Syntax</h3>
+    <h3>语法</h3>
     <ul>
-      <li>Use soft tabs with two spaces—they're the only way to guarantee code renders the same in any environment.</li>
-      <li>When grouping selectors, keep individual selectors to a single line.</li>
-      <li>Include one space before the opening brace of declaration blocks for legibility.</li>
-      <li>Place closing braces of declaration blocks on a new line.</li>
-      <li>Include one space after <code>:</code> for each declaration.</li>
-      <li>Each declaration should appear on its own line for more accurate error reporting.</li>
-      <li>End all declarations with a semi-colon. The last declaration's is optional, but your code is more error prone without it.</li>
-      <li>Comma-separated property values should include a space after each comma (e.g., <code>box-shadow</code>).</li>
+      <li>使用两个空格的 Tab 键 - 它是保证代码在任何环境下都能呈现相同效果的唯一方式</li>
+      <li>当出现选择器分组时，将单独的选择器放一行</li>
+      <li>左大括号与代码块之中空一格以保证可读性</li>
+      <li>右大括号应当出现在代码块的下一行</li>
+      <li><code>:</code>与任何声明之中都要空一格</li>
+      <li>任何声明都应该独自占一行便于精准定位错误</li>
+      <li>所有声明后面都应该跟有分号，虽然最后一个可有可无，但如果忽略容易出错。</li>
+      <li>以逗号分隔属性值时，任何逗号后面都应该空一格 (例如：<code>, box-shadow</code>)</li>
       <li>Don't include spaces after commas <em>within</em> <code>rgb()</code>, <code>rgba()</code>, <code>hsl()</code>, <code>hsla()</code>, or <code>rect()</code> values. This helps differentiate multiple color values (comma, no space) from multiple property values (comma with space). Also, don't prefix values with a leading zero (e.g., <code>.5</code> instead of <code>0.5</code>).</li>
-      <li>Lowercase all hex values, e.g., <code>#fff</code>. Lowercase letters are much easier to discern when scanning a document as they tend to have more unique shapes.</li>
-      <li>Use shorthand hex values where available, e.g., <code>#fff</code> instead of <code>#ffffff</code>.</li>
+      <li>使用小写的十六进制值, 例如：<code>#fff</code>。由于上写字母独特的形状，它们往往更容易扫描。</li>
+      <li>十六进制尽可能使用缩写, 例如使用 <code>#fff</code> 代替 <code>#ffffff</code>。</li>
       <li>Quote attribute values in selectors, e.g., <code>input[type="text"]</code>. <a href="http://mathiasbynens.be/notes/unquoted-attribute-values#css">They’re only optional in some cases</a>, and it’s a good practice for consistency.</li>
-      <li>Avoid specifying units for zero values, e.g., <code>margin: 0;</code> instead of <code>margin: 0px;</code>.</li>
+      <li>属性值为 0 时不要指定单位, 例如使用 <code>margin: 0;</code> 代替 <code>margin: 0px;</code>.</li>
     </ul>
     <p>Questions on the terms used here? See the <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Syntax">syntax section of the Cascading Style Sheets article</a> on Wikipedia.</p>
   </div>
@@ -204,13 +204,13 @@ layout: default
 
 <div class="section" id="css-declaration-order">
   <div class="col">
-    <h3>Declaration order</h3>
+    <h3>声明的顺序</h3>
     <p>Related property declarations should be grouped together following the order:</p>
     <ol>
-      <li>Positioning</li>
-      <li>Box model</li>
-      <li>Typographic</li>
-      <li>Visual</li>
+      <li>位置属性</li>
+      <li>自身属性（盒模型）</li>
+      <li>文本属性</li>
+      <li>显示属性</li>
     </ol>
     <p>Positioning comes first because it can remove an element from the normal flow of the document and override box model related styles. The box model comes next as it dictates a component's dimensions and placement.</p>
     <p>Everything else takes place <em>inside</em> the component or without impacting the previous two sections, and thus they come last.</p>
