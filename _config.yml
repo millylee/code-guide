@@ -1,6 +1,6 @@
-name:          Code Guide by @mdo
-description:   Standards for developing flexible, durable, and sustainable HTML and CSS.
-url:           http://mdo.github.com/code-guide
+name:          Code Guide zh-CN
+description:   创建灵活、耐用和可扩展的 HTML 与 CSS 的标准。
+url:           http://millylee.github.com/code-guide
 
 markdown:      rdiscount
 permalink:     pretty
