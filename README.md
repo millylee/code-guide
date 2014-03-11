@@ -3,7 +3,7 @@
 Code Guide 是一个为书写灵活、耐用和可扩展的 HTML 与 CSS 的项目。总结自数年不同大小项目的代码经验。这不是一切，它仅仅只是个开始。
 
 
-**[开始阅读](http://mdo.github.io/code-guide)**
+**[马上阅读☞](http://mdo.github.io/code-guide)**
 
 ### 版权
 
